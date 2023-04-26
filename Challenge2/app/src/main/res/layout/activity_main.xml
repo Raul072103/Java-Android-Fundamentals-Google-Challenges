@@ -26,7 +26,7 @@
         android:layout_height="48dp"
         android:ems="10"
         android:hint="Email"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         android:layout_gravity="center_horizontal"/>
 
     <EditText
@@ -35,7 +35,7 @@
         android:layout_height="48dp"
         android:ems="10"
         android:hint="Phone"
-        android:inputType="text"
+        android:inputType="number"
         android:layout_gravity="center_horizontal"/>
 
     <CheckBox
@@ -48,8 +48,7 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SUBMIT"
-        android:background="@color/blue"/>
+        android:text="SUBMIT" />
 
 </LinearLayout>
 
