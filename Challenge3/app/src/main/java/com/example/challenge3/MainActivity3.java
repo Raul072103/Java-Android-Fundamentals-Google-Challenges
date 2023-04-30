@@ -28,7 +28,10 @@ public class MainActivity3 extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 String selectedItem = adapter.getItem(position).toString();
-                Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
+                //if (adapter.getItem(position) != 0) {
+
+                    Toast.makeText(getApplicationContext(), selectedItem, Toast.LENGTH_SHORT).show();
+               // }
             }
 
             @Override
